@@ -1,0 +1,124 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+}
+.maintitle {
+    font-family: 'Space Mono', monospace;
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--snow);
+    margin: 1rem 0;
+}
+
+/* section ONE */
+
+.sectionone {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: -1;
+    overflow: hidden;;
+    opacity: 0.8;
+    padding-top: 5rem;
+}
+.sectionone p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: var(--snow);
+    margin: 1rem 0;
+}
+
+.sectionone-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    width: 40%;
+}
+
+/* section TWO */
+.sectiontwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.sectiontwo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
+
+
+}
+/* SECTION THREE */
+.sectionthree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+.sectionthree p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: var(--dark-navy);
+    margin: 1rem 0;
+}
+
+.sectionone img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.h1 {
+    font-family: 'Space Mono', monospace;
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--dark-navy);
+    margin: 1rem 0;
+}
+h3 {
+    font-family: 'Space Mono', monospace;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--dark-navy);
+    margin: 1rem 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 32px;
+    padding: 1rem 3rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: var(--light-grey);
+}
