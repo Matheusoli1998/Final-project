@@ -166,3 +166,53 @@ h3 {
     cursor: pointer;
     transition: all 0.3s ease;
 }
+/* finish button hover________ */
+.buton:hover {
+    background-color: var(--dark-navy);
+    color: var(--snow);
+}
+/* footter */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1rem;
+    color: var(--snow);
+    width: 100%;
+    position: relative;
+    background: url("./assets/Mask.png") no-repeat center center;
+    background-size: cover;
+  }
+  
+  
+  .footer-container {
+    font-family: 'Space Mono', monospace;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    font-size: 3rem;
+    padding: 1rem 6rem;
+    gap: 1rem;
+  }
+  
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lexend Deca', sans-serif;
+  }
+  .footer-nav li a {
+    text-decoration: none;
+    color: var(--snow);
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .footer-contact {
+    font-size: 1rem;
+    font-family: 'Lexend Deca', sans-serif;
+  }

@@ -1,0 +1,22 @@
+.sectionone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+.sectionone p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: var(--dark-navy);
+    margin: 1rem 0;
+}
+.sectionone-container {
+    display: flex;
+    gap: 3rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
+}
